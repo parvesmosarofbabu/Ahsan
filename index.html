@@ -1,0 +1,254 @@
+<!DOCTYPE html>
+<html lang="en-US">
+	<head>
+		<!-- Meta setup -->
+		<meta charset="UTF-8">
+		<meta http-equiv="X-UA-Compatible" content="IE=edge">
+		<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+		<meta name="keywords" content="">
+		<meta name="decription" content="">
+		<meta name="designer" content="Parves Mosarof">
+		
+		<!-- Title -->
+		<title>Welcome My Website</title>
+		
+		<!-- Fav Icon -->
+		<link rel="icon" href="images/favicon.ico" />	
+
+		<!-- Include Bootstrap -->
+		<link rel="stylesheet" href="css/bootstrap.css" />
+		
+		<!-- Main StyleSheet -->
+		<link rel="stylesheet" href="style.css" />	
+		
+		<!-- Responsive CSS -->
+		<link rel="stylesheet" href="css/responsive.css" />	
+		
+	</head>
+	<body>
+		
+
+					
+	<!-----start Hearder section----->
+     <div id="hearder">
+        <div class="contenier">
+            <nav>
+                <a class="logo"  href="#">Osthir Ahsan</a>
+                <ul id="sidmenu">
+                    <li><a href="#hearder">Home</a></li>
+                    <li><a href="#about">About</a></li>
+                    <li><a href="#services">Services</a></li>
+                    <li><a href="#portfolio">Work</a></li>
+                    <li><a href="#contact">Contact</a></li>
+                    <i class="fa-solid fa-xmark" onclick="closemenu()"></i>
+                 </ul>
+                 <a href="#"><i class="fa-solid fa-bars" onclick="openmenu()"></i></a>
+              </nav> 
+              <div class="hearder-text">
+                <p>Graphics Designer</p>
+                <h1>Hi <span class="type"></span> <br> Form Bangladesh</h1>
+              </div>       
+            </div>
+        </div>
+     </div>
+      <!-----End Hearder section----->
+
+
+      <!-----start About section----->
+      <div id="about">
+        <div class="contenier">
+            <div class="row">
+                <div class="about-col-1">
+                  <img src="images/team2.png" class="img-fluid" alt="">  
+                </div>
+                <div class="about-col-2">
+                    <h1 class="sub-title">About Us</h1>
+                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Reprehenderit dolorum architecto modi est esse libero, ipsa obcaecati iure debitis possimus rerum ullam cupiditate corporis molestiae ratione sed distinctio corrupti repudiandae iste itaque maiores accusantium dolores voluptates quisquam. Tempora consequatur quaerat totam in ipsam? Minus, expedita. Distinctio qui itaque sunt temporibus.</p>
+                   <div class="tab-titles">
+                    <p class="tab-links active-link " onclick="opentab('skills')">Skills</p>
+                    <p class="tab-links" onclick="opentab('experience')">Experience</p>
+                    <p class="tab-links" onclick="opentab('education')">Education</p>
+                   </div>
+                   <div class="tab-contents active-tab" id="skills">
+                    <ul>
+                        <li><span>UI/UX</span><br>Graphics Designing  / Video Marketing</li>
+                        <li><span>Graphics Design</span><br> Logo Design</li>
+                        <li><span>Video Editing &</span><br>Photo Editing</li>
+                    </ul>
+                   </div>
+                   <div class="tab-contents" id="experience">
+                    <ul>
+                        <li><span>2022 - Current </span><br>Design trainig at Et institute </li>
+                        <li><span>2020 - 2022</span><br> team lead ate start app llc</li>
+                        <li><span>Graphics Design</span><br>With Photoshop Experience</li>
+                    </ul>
+                   </div>
+                   <div class="tab-contents" id="education">
+                    <ul>
+                        <li><span>UI/UX</span><br>Designing Graphics / App interfces</li>
+                        <li><span>Graphics Design</span><br> Photo Editing Experience</li>
+                        <li><span>Video Editing &</span><br>YouTube Marketing</li>
+                    </ul>
+                   </div>
+                </div>
+            </div>
+        </div>
+      </div>
+      <!-----End About section----->
+
+
+      <!-----Service section Start----->
+     <div id="services">
+        <div class="contenier">
+            <h1 class="sub-title">My Services</h1>
+            <p class="logo">Osthir Ahsan</p>
+            <div class="services-list">
+                <div>
+                    <img src="images/flag.png" alt="" class="img-fluid">
+                    <h2>Graphics Design</h2>
+                    <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. In quas recusandae blanditiis debitis animi fugit id.</p>
+                    <a href="#">Learn More</a>
+                </div>
+                <div>
+                    <img src="images/pancel.png" alt="" class="img-fluid">
+                    <h2>Logo Design</h2>
+                    <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. In quas recusandae blanditiis debitis animi fugit id.</p>
+                    <a href="#">Learn More</a>
+                </div>
+                <div>
+                    <img src="images/grars.png" alt="" class="img-fluid">
+                    <h2>Video Editing</h2>
+                    <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. In quas recusandae blanditiis debitis animi fugit id.</p>
+                    <a href="#">Learn More</a>
+                </div>
+
+            </div>
+
+        </div>
+     </div>
+      <!----services section end ----->
+
+
+        <!----portfolio section Start ----->
+
+        <div id="portfolio">
+            <div class="contenier">
+                <h1 class="sub-title">My Work</h1>
+                <p class="logo">Osthir Ahsan</p>
+                <div class="work-list">
+                    <div class="work">
+                        <img src="images/Portfolio2.png" alt="" class="img-fluid">
+                        <div class="layer">
+                            <h3>Graphics Design</h3>
+                            <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Quis, vitae!</p>
+                            <a href="#"><i class="fa-solid fa-up-right-from-square"></i></a>
+                        </div>
+                        
+                    </div>
+                    <div class="work">
+                        <img src="images/Portfolio3.png" alt="" class="img-fluid">
+                        <div class="layer">
+                            <h3>Video Editing</h3>
+                            <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Quis, vitae!</p>
+                            <a href="#"><i class="fa-solid fa-up-right-from-square"></i></a>
+                        </div>
+                        
+                    </div>
+                    <div class="work">
+                        <img src="images/Portfolio4.png" alt="" class="img-fluid">
+                        <div class="layer">
+                            <h3>Photo Editing</h3>
+                            <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Quis, vitae!</p>
+                            <a href="#"><i class="fa-solid fa-up-right-from-square"></i></a>
+                        </div>
+                        
+                    </div>
+                  
+                </div>
+                <a href="#" class="btn">Learn More</a>
+
+            </div>
+        </div>
+         <!----portfolio section End ----->
+
+
+          <!----Contact section Start ----->
+          <div id="contact">
+            <div class="contenier">
+                <div class="row">
+                    <div class="contact-left">
+                        <h1 class="sub-title">Contact Us</h1>
+                        <p><i class="fa-solid fa-paper-plane"></i><a href="http://www.Ahsanulh022@gmail.com/">Ahsanulh022@gmail.com</a></p>
+                        <p><i class="fa-solid fa-square-phone-flip"></i>01959084072</p>
+                        <div class="social-icons">
+                            <a href="https://www.facebook.com/osthir.ahsan"><i class="fa-brands fa-square-facebook"></i></a>
+                            <a href="https://twitter.com/home"><i class="fa-brands fa-square-twitter"></i></a>
+                            <a href="https://www.facebook.com/Ahsanul32"><i class="fa-brands fa-facebook"></i></a>
+                            <a href="https://www.youtube.com/channel/UCd-AdpH6QDiwyI8bAb-bLyg"><i class="fa-brands fa-youtube"></i></a>
+                        </div>
+                        <a href="" class="btn btn2">Download CV</a>
+
+                    </div>
+                    <div class="contact-right">
+                        <form >
+                            <input title="type your name" type="text" name="Name" placeholder="Your Name" required>
+                            <input title="type your email address" type="Email" name="Email" placeholder="Your Email" required>
+                            <textarea title="type your message" name="massage" rows="6" placeholder="Your Massage"></textarea>
+                            <button type="submit" class="btn btn2">Submit</button>
+                        </form>
+                    </div>
+                </div>
+            </div>
+            <div class="copyright">
+                <a href="#">All Copyright@ by <i class="fa-solid fa-heart"></i> Parves Mosarof</a>
+            </div>
+          </div>
+   
+          <!----Contact section End ----->			
+		
+	
+		
+		<!-- Main jQuery -->
+		<script src="js/jquery-3.4.1.min.js"></script>		
+		
+		<!-- Bootstrap jQuery -->
+		<script src="js/bootstrap.bundle.min.js"></script>
+
+		<!-- ityped.min.js -->
+		<script src="js/ityped.min.js"></script>
+
+		<!-- Fontawesome Script -->
+		<script src="https://kit.fontawesome.com/2b12c591dc.js" crossorigin="anonymous"></script>
+		
+		<!-- Custom jQuery -->
+		<script src="js/custom.js"></script>
+		
+		<!-- Scroll-Top button -->
+		<a href="#" class="scrolltotop"><i class="fas fa-angle-up"></i></a>
+
+		<script>
+          	
+          	var tablinks = document.getElementsByClassName("tab-links");
+	        var tabcontents = document.getElementsByClassName("tab-contents");
+	        function opentab(tabname){
+	            for(tablink of tablinks){
+	                tablink.classList.remove("active-link");
+	            }
+	            for(tabcontent of tabcontents){
+	                tabcontent.classList.remove("active-tab");
+	            }
+	            event.currentTarget.classList.add("active-link");
+	            document.getElementById(tabname).classList.add("active-tab");
+	        }
+
+	        var sidmenu = document.getElementById("sidmenu");
+	        function openmenu(){
+	            sidmenu.style.right ="0";
+	        }
+	        function closemenu(){
+	            sidmenu.style.right ="-200px";
+	        }
+
+          </script>
+	</body>
+</html>
